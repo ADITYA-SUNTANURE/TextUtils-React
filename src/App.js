@@ -66,7 +66,7 @@ function App() {
             <About />
           </Route>
   
-          <Route exact path="">
+          <Route exact path="/TextUtils-React">
           <TextForm heading='The Text Box' mode={mode} showAlert={showAlert}/>
           </Route>
         </Switch>
